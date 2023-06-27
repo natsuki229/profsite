@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>Document</title>
+</head>
+
+<img src="../static/img/pink-pic2.jpg" class="img">
+<body>
+<!-- ローディング画面作る-->
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="header" id="header">
+    <div class="header-logo" id="self">Self-introduction</div>
+    <div class="header-list">
+      <ul>
+        <li><a href="https://www.instagram.com/7_mooon_gram/"><img src="../static/img/OIP.jpg" class="insta"></a></li>
+        <!--javascriptを使うのでidをつける-->
+        <li><a  class="newspoker" id="news3">News</a></li>
+        <li><a class="menulink" id="menu3" >Menu</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <div class="copy-container">
+      <h2>Hello! How's it going?</h2>
+      <h3>It's me, Natsuki!</h3>
+    </div>
+    <button id="btn" class="bn632-hover">Click here!</button>
+
+  </div>
+  <div class="contents" id="contents">
+    <table>
+      <tbody>
+          <tr>
+              <th>Nickname</th>
+              <td>Natchan</td>
+              
+              
+          </tr>
+           <tr>
+              <th>Birthday</th>
+              <td>07/13</td>
+              
+          </tr>
+           <tr>
+              <th>Faculty</th>
+              <td>Literature</td>
+              
+          </tr>
+          <tr>
+              <th>Birthplace</th>
+              <td>Tondabayashi, Osaka</td>
+              
+          </tr>
+          <tr>
+              <th>Hobby</th>
+              <td class="hobbybobs">Watching bob's burgers, an American cartoon
+                <img src="../static/img/bobs burgers.jpg" class="bobs">
+              </td>
+              
+
+             
+          </tr>
+
+          <tr>
+            <th>Speciality</th>
+            <td class="imitation">Imitation of Spongebob's characters
+              <img src="../static/img/spongebob friends.webp" class="spongebob">
+            </td>
+            
+        </tr>
+
+        <tr>
+          <th>Favorite ramen restaurant</th>
+          <td class="ramentext"><a href="https://www.bing.com/ck/a?!&&p=205620270b8923cbJmltdHM9MTY4NDE5NTIwMCZpZ3VpZD0zMzcyNzRlYy1jZDFjLTY4NjktMTYyMy02NjBlY2NhYjY5OGImaW5zaWQ9NTI2NQ&ptn=3&hsh=3&fclid=337274ec-cd1c-6869-1623-660eccab698b&psq=%e4%ba%ba%e9%a1%9e%e3%81%bf%e3%81%aa%e9%ba%ba%e9%a1%9e+%e3%83%ab%e3%82%af%e3%82%a2&u=a1aHR0cHM6Ly90YWJlbG9nLmNvbS9vc2FrYS9BMjcwMS9BMjcwMTAxLzI3MTMwMjEwLw&ntb=1">Jinrui mina menrui</a>
+            <img src="../static/img/ramen.jpg" class="ramenpic">
+          </td>
+          
+      </tr>
+
+      <tr>
+        <th>A place where I'd like to visit</th>
+        <td class="yellowtext"> Yellowstone national park
+          <img src="../static/img/hot spring in yellowstone.webp" class="yellowpic">
+        </td>
+        
+    </tr>
+
+      </tbody>
+  </table>
+  </div>
+
+  <div class="footer">
+  </div>
+
+<!--newsをクリックしたらでてくる部分。classとidをつける-->
+  <div class="news2" id="news22">
+    <h1 class="date">2023 05/06</h1>
+    <div class="pokerpic">
+      <img src="../static/img/poker.jpg" >
+    </div>
+    <div class="footer1">
+    </div>
+  </div>
+<!--menuをクリックしたら出てくる部分-->
+  <div class="menu2" id="menu22" >
+    <h1>Menu</h1>
+    <div class="menu1">
+      <div class="item">
+        <div class="itemname">Niwatori</div>
+        <img src="../static/img/IMG-1068[19].jpg" >
+      </div>
+      <div class="item">
+        <div class="itemname">Ahihijo</div>
+        <img src="../static/img/IMG-1065[16].jpg" >
+      </div>
+      <div class="item">
+        <div class="itemname">Gratin</div>
+        <img src="../static/img/IMG-1067[18].jpg" >
+      </div>
+      <div class="item">
+        <div class="itemname">hijiki seaweed</div>
+        <img src="../static/img/IMG-1066[17].jpg" >
+      </div>
+      <div class="item">
+        <div class="itemname">Rolled eggs</div>
+        <img src="../static/img/rolledeggs.jpg">
+      </div>
+      <div class="item">
+        <div class="itemname">Walnut salad</div>
+        <img src="../static/img/walnutsalad.jpg">
+      </div>
+      <div class="item">
+        <div class="itemname">Pumpkin spaghetti</div>
+        <img src="../static/img/pumpkin-spaghetti.jpg">
+      </div>
+      <div class="item">
+        <div class="itemname">Oatmeal pizza</div>
+        <img src="../static/img/oatmealpizza.jpg">
+      </div>
+      <div class="item">
+        <div class="itemname">Eggplant</div>
+        <img src="../static/img/eggplant.jpg">
+      </div>
+    </div>
+    <div class="footer2">
+    </div>
+
+  </div>
+<!--pagetop戻るボタン　onclickをつくらないといけない-->
+  <button id="scrolld_btn" onclick="sc()" class="scrolld_btn">Page top</button>
+
+  <img id="mypic" width="400" height="300">
+
+  <div class="footer3">
+  </div>
+
+  <div class="realfooter">
+    <div class="realfooter-logo">Natsuki's burgers Company.Limited</div>
+    <div class="realfooter-list">
+      
+        <a href="./privacy.html" class="privacy">Privacy policy</a>
+        <a href="./info.html" class="info">Company info</a>
+        <a href="./contact.html" class="contact">Contact form</a>
+      
+    </div>
+  </div>
+
+</body>
+</html>
+<script src="../static/js/javsscript.js"></script>
+

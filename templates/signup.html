@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/signup.css">
+    <title>Login</title>
+</head>
+<body>
+  {% block content %}
+  <h1>User registration</h1>
+  <form method="POST" action="/signup">
+      <label for="" class="name">Name</label>
+      <input type="text" name="username">
+      <label for="" class="password">Password</label>
+      <input type="password" name="password">
+      <button type="submit" class="bbutton">Sign up</button>
+  </form>
+  {% endblock %}
+</body>

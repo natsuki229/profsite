@@ -1,0 +1,129 @@
+.realfooter {
+    background-color: #f7f9fb;
+    color: #e2a2d8;
+    height: 90px;
+    left:0;
+  
+  }
+  /*paddingを２０pxから１８．２pxにしたら隙間なおった*/
+  .realfooter-logo {
+    float: left;
+    font-size: 36px;
+    padding: 18.2px 40px;
+  }
+  
+  .realfooter-list a {
+    padding: 33px 20px;
+    float:left;
+    color: #e2a2d8;
+  }
+  
+  .privacy:hover{
+    color: #5a1ec9;
+  }
+  .info:hover{
+    color: #5a1ec9;
+  }
+  .contact:hover{
+    color: #5a1ec9;
+  }
+
+  table {
+    background-color: #d1e8f3;  /* 背景色指定 */
+}
+ 
+th {
+    background-color: #a6ccfd;  /* 背景色指定 */
+}
+
+body{
+  background-color:#def3f5;
+  color: rgb(81, 170, 170);
+  margin:0px;/*縦横隙間なくす*/
+  
+}
+
+table th {/*table内のthに対して*/
+  padding: 10px;/*上下左右10pxずつ*/
+}
+
+table td {/*table内のtdに対して*/
+  padding: 3px 10px;/*上下3pxで左右10px*/
+}
+
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  border: solid 1px black;
+  /*実線 1px 黒*/
+}
+
+h1{
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+h3{
+  text-align: center;
+  padding: 35px 0;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.infofooter{
+  height: 300px;
+}
+
+.echannel{
+  width: 1200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 40px;
+}
+iframe{
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.box {
+  height: 150px;
+  width: 1200px;
+  border: 1px solid;
+  overflow-y: scroll;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  /*ヘッダーの上にできてしまった隙間をなくす*/
+  top:-8px;
+/*ヘッダーの横にできた隙間をなくす*/
+  left: 0;
+}
+.foot{
+  left: -5px;
+  width:100%;
+  top:90px;
+}
+
+#foot{
+  width:100%;
+  top:10px;
+  left:-10px;
+}
